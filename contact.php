@@ -13,6 +13,6 @@ $to = 'asthikpbce@gmail.com';
 $headers = 'From: $email_from \r\n';
 $headers = 'Reply-to: $visitor_email \r\n';
 
-mail ($to,$email_subject,$message,$headers)
+mail ($to,$email_subject,$message,$email_body,$headers)
 header ('Location: index.html');
 ?>
