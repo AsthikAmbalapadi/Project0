@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fi-cwsuxl-check {
+  padding-right: 12px;
+  color: green;
+}
+
+.fi-cnsuxl-times-solid {
+  padding-right: 12px;
+  color: red;
+}
+
+#Comparison .Plan1 h2, #Comparison .Plan2 h2, #Comparison .Plan3 h2 {
+  text-align: center;
+  background-color: #2909ddd7;
+  font-size: 30px;
+  color: #fff;
+  padding: 1rem;
+}
+
+#Comparison th, #Comparison td {
+  text-align: center;
+  padding: 0.1rem;
+}
+
+/*------------------------------Navigation-------------------------------*/
+#Navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#Navigation .navbar {
+  background-color: white !important;
+}
+
+#Navigation .navbar-brand {
+  padding: 0px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Navigation li {
+  padding: 0 10px;
+}
+
+#Navigation a {
+  float: right;
+  text-align: left;
+}
+
+#Navigation .nav-item :hover {
+  background-color: slategray !important;
+  color: white !important;
+}
+
+#Navigation .nav-link {
+  color: #555 !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#Navigation .navbar-toggler {
+  border: none !important;
+}
+
+/*------xxxxxxxxxx--------------Navigation----------xxxxxxxxxxx----------*/
+/*----------------------------Flight Package-----------------------------*/
+#Flights h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: cursive;
+  font-variant: small-caps;
+  color: rgba(70, 236, 20, 0.836);
+}
+
+#Flights .Flights h2 {
+  margin-bottom: 1rem;
+}
+
+#Flights .Flights h5 {
+  font-family: serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#Flights #Price {
+  padding: 40px 0;
+  background: #9c979736;
+}
+
+#Flights .Price {
+  margin: 10px auto;
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Flights .Price:hover {
+  -webkit-box-shadow: 0px 10px 20px #454346;
+          box-shadow: 0px 10px 20px #454346;
+}
+
+#Flights .Price-Head {
+  background-color: rgba(76, 0, 130, 0.815);
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+#Flights .Price-Head h2 {
+  color: white;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 40px;
+}
+
+#Flights .Price-Head p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#Flights .Price-Head span {
+  font-size: 15px;
+}
+
+#Flights .Price_Content {
+  float: left;
+  width: 100%;
+  padding: 10px 25px;
+}
+
+#Flights .Price_Content ul li {
+  padding: 15px 2px;
+  border-bottom: 0.8px solid #9449e9;
+  list-style: none;
+}
+
+#Flights .Price_Content ul li:last-child {
+  border: none;
+}
+
+#Flights .Join {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 15px 15px 30px;
+}
+
+#Flights .Join a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+#Flights .Join_button {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 15px 50px;
+  background-color: rgba(216, 46, 216, 0.534);
+  border-radius: 0.8rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#Flights .Join_button:hover {
+  -webkit-box-shadow: 0px 10px 20px #454346;
+          box-shadow: 0px 10px 20px #454346;
+}
+
+/*------xxxxxxxxxx------------Flight Package----------xxxxxxxxxxx--------*/
+/*--------------------------Package Comparison---------------------------*/
+#Comparison h2 {
+  margin-bottom: 1rem;
+}
+
+#Comparison table tr td, #Comparison th {
+  border: 2px solid blue;
+}
+
+/*------xxxxxxxxxx----------Package Comparison--------xxxxxxxxxxx--------*/
+/*# sourceMappingURL=Advanced_Styles.css.map */
